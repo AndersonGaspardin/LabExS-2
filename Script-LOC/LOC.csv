@@ -1,0 +1,311 @@
+
+mypy
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=1.53 s (262.9 files/s, 99191.0 lines/s)"
+328,Python,17617,20601,74272
+28,C/C++ Header,2572,5884,16209
+11,C++,1248,2524,5896
+1,C,160,147,1360
+11,Markdown,449,0,1049
+1,DOS Batch,29,1,212
+2,XSLT,10,3,168
+2,make,42,34,162
+3,YAML,17,22,161
+5,INI,12,0,121
+1,CSS,24,10,70
+5,Bourne Shell,21,29,63
+1,XSD,0,3,47
+1,Lisp,2,2,18
+1,TOML,0,0,6
+,
+500lines
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.19 s (407.8 files/s, 62170.6 lines/s)"
+2,CSS,966,26,6139
+36,Python,502,378,2057
+7,Erlang,99,23,555
+7,HTML,9,4,341
+6,Markdown,84,0,288
+16,Ruby,32,0,202
+2,make,8,3,20
+1,YAML,0,0,3
+,
+TatSu
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.18 s (478.3 files/s, 83679.3 lines/s)"
+68,Python,2359,1464,7784
+2,ANTLR Grammar,320,300,1622
+1,OCaml,42,30,241
+1,Markdown,50,0,111
+3,YAML,14,6,77
+4,make,32,6,70
+2,vim script,12,5,49
+1,INI,6,0,41
+1,DOS Batch,8,1,27
+1,CSS,3,0,15
+,
+pegen
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.26 s (480.1 files/s, 136450.4 lines/s)"
+1,JSON,0,0,16011
+112,Python,2085,1177,12980
+2,C,311,286,2279
+4,Markdown,117,0,328
+3,C/C++ Header,39,27,241
+1,make,33,18,80
+1,YAML,9,0,37
+2,INI,6,0,24
+1,TOML,0,0,9
+,
+pyxl3
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.11 s (807.5 files/s, 53241.9 lines/s)"
+80,Python,659,444,3085
+3,vim script,107,240,633
+1,Markdown,79,0,157
+1,Expect,16,4,114
+1,Lisp,17,25,90
+,
+mypy_extensions
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.01 s (420.8 files/s, 29877.7 lines/s)"
+3,Python,79,62,214
+1,YAML,5,2,38
+1,INI,3,0,17
+1,Markdown,2,0,4
+,
+cpython
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=9.62 s (303.9 files/s, 153410.0 lines/s)"
+1895,Python,120231,145410,552370
+317,C,52481,56646,312847
+389,C/C++ Header,15439,10036,156583
+16,Bourne Shell,2878,2486,18087
+4,m4,535,133,5528
+5,C++,726,256,3241
+37,YAML,397,90,2235
+2,RobotFramework,0,0,1931
+10,HTML,108,11,1927
+51,WiX source,161,41,1713
+32,DOS Batch,353,99,1700
+8,Windows Module Definition,23,14,1365
+6,Assembly,229,384,1365
+27,MSBuild script,40,3,645
+7,Objective C,98,61,635
+1,Lisp,109,81,502
+3,Pascal,113,261,349
+6,PowerShell,84,171,344
+58,XML,72,7,338
+7,Windows Resource File,40,47,295
+3,make,56,40,238
+11,WiX string localization,28,0,188
+2,JavaScript,18,14,177
+1,INI,42,27,102
+5,D,8,1,74
+4,Markdown,30,0,65
+6,JSON,3,0,65
+2,Bourne Again Shell,8,2,46
+1,Prolog,0,0,24
+1,C Shell,9,5,11
+1,IDL,1,0,11
+1,XSLT,0,0,5
+1,TOML,0,0,4
+1,DTD,4,0,2
+1,CSS,2,4,0
+1,Visual Basic,0,1,0
+,
+com2ann
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.02 s (288.7 files/s, 84155.5 lines/s)"
+3,Python,242,556,850
+1,Markdown,13,0,52
+1,YAML,4,0,18
+1,INI,0,0,14
+,
+guidos_time_machine
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.01 s (451.9 files/s, 3050.5 lines/s)"
+3,Python,3,0,23
+1,Markdown,0,0,1
+,
+make-stub-files
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.05 s (511.3 files/s, 88942.6 lines/s)"
+24,Python,408,726,2934
+2,Markdown,155,0,300
+,
+mypy
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.85 s (323.4 files/s, 114088.2 lines/s)"
+249,Python,14090,17893,62790
+6,Markdown,237,0,551
+1,DOS Batch,29,1,212
+2,XSLT,10,3,168
+1,make,28,6,143
+5,INI,13,0,115
+2,YAML,12,16,84
+1,CSS,24,10,70
+1,XSD,0,3,47
+4,Bourne Shell,18,22,42
+1,Lisp,2,2,18
+1,TOML,0,0,6
+,
+asyncio
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.20 s (412.7 files/s, 156141.7 lines/s)"
+76,Python,5508,3199,21173
+1,C,206,45,1086
+2,Bourne Shell,12,4,74
+1,make,11,16,33
+1,INI,3,0,18
+1,YAML,4,0,13
+1,DOS Batch,0,0,1
+,
+ballot-box
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.02 s (708.5 files/s, 47570.5 lines/s)"
+4,Python,128,94,447
+7,HTML,31,0,170
+1,make,11,2,22
+2,YAML,7,8,20
+,
+pep550
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.01 s (436.8 files/s, 57222.9 lines/s)"
+2,Python,90,60,240
+1,Markdown,27,0,105
+1,make,0,0,2
+,
+mypy-dummy
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.01 s (336.7 files/s, 3928.2 lines/s)"
+3,Python,5,0,30
+,
+peps
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.35 s (72.3 files/s, 14032.6 lines/s)"
+19,Python,564,633,2709
+1,JSON,2,0,339
+2,CSS,85,19,259
+1,C,21,5,162
+1,make,14,4,24
+1,YAML,2,0,9
+,
+python-memcached
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.03 s (389.8 files/s, 71363.2 lines/s)"
+5,Python,320,471,1102
+1,Bourne Again Shell,7,2,24
+1,INI,5,0,22
+1,Markdown,12,0,20
+1,YAML,0,0,15
+1,make,2,0,7
+1,Bourne Shell,1,3,1
+,
+pytype
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.38 s (403.4 files/s, 169344.5 lines/s)"
+143,Python,7383,18484,25702
+3,C++,1068,1028,4095
+1,diff,120,1756,4042
+1,yacc,93,85,428
+4,C/C++ Header,76,66,171
+2,Markdown,10,0,44
+,
+cpython
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=8.70 s (328.2 files/s, 154870.6 lines/s)"
+1753,Python,100245,118619,466448
+486,C,49940,55376,301265
+331,C/C++ Header,11889,11163,105498
+35,Bourne Shell,7287,7857,46172
+20,m4,1653,192,16118
+52,Assembly,3779,6467,12669
+1,TeX,751,3231,6097
+5,C++,616,273,2591
+8,HTML,80,11,1718
+49,WiX source,150,37,1640
+6,Windows Module Definition,25,14,1174
+30,DOS Batch,213,91,981
+7,Objective C,98,61,635
+26,MSBuild script,40,4,621
+5,Expect,104,161,505
+8,make,86,44,505
+1,Lisp,109,81,502
+3,JavaScript,31,50,237
+5,Windows Resource File,26,27,179
+10,WiX string localization,23,0,166
+2,CSS,39,4,141
+1,diff,17,87,105
+1,INI,42,27,102
+1,Pascal,25,0,85
+4,XML,56,2,74
+1,PowerShell,9,6,34
+1,IDL,0,0,24
+1,C Shell,9,7,21
+1,YAML,5,2,16
+2,Visual Basic,1,1,12
+,
+arq
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.05 s (568.4 files/s, 61534.4 lines/s)"
+23,Python,578,509,1758
+2,make,15,2,87
+1,YAML,9,0,40
+1,Markdown,1,0,20
+1,HTML,1,0,11
+,
+stone
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.23 s (312.0 files/s, 135182.2 lines/s)"
+57,Python,4470,7208,17773
+3,Swift,68,14,445
+3,Objective C,58,17,361
+4,C/C++ Header,61,105,73
+2,INI,25,0,52
+1,YAML,4,2,18
+1,Bourne Shell,2,1,6
+,
+pygl
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.08 s (423.8 files/s, 95561.1 lines/s)"
+20,Python,766,170,3625
+4,C,53,2,2378
+1,make,11,0,50
+2,Markdown,15,0,39
+3,C/C++ Header,19,7,36
+1,INI,5,0,35
+1,Bourne Again Shell,0,0,5
+,
+welcome-wagon-2018
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.01 s (362.1 files/s, 87833.9 lines/s)"
+1,Markdown,96,0,339
+1,DOS Batch,34,2,227
+1,make,29,6,181
+1,Python,72,178,41
+1,YAML,2,0,6
+,
+peps
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=0.35 s (71.7 files/s, 13912.5 lines/s)"
+19,Python,564,633,2709
+1,JSON,2,0,339
+2,CSS,85,19,259
+1,C,21,5,162
+1,make,14,4,24
+1,YAML,2,0,9
+,
+cpython
+files,language,blank,comment,code,"github.com/AlDanial/cloc v 1.74  T=9.35 s (306.8 files/s, 155442.4 lines/s)"
+1852,Python,117938,142911,541584
+318,C,51935,56506,309496
+381,C/C++ Header,15359,10044,155995
+15,Bourne Shell,2866,2484,18022
+4,m4,532,132,5474
+5,C++,727,256,3244
+35,YAML,387,72,2000
+10,HTML,108,11,1925
+51,WiX source,161,41,1713
+32,DOS Batch,351,99,1674
+6,Assembly,229,384,1365
+8,Windows Module Definition,23,14,1363
+27,MSBuild script,40,3,645
+7,Objective C,98,61,635
+1,Lisp,109,81,502
+3,Pascal,113,261,349
+6,PowerShell,84,171,345
+58,XML,72,7,338
+7,Windows Resource File,40,47,295
+3,make,56,40,238
+11,WiX string localization,28,0,188
+2,JavaScript,18,14,176
+1,INI,42,27,102
+5,D,8,1,74
+4,Markdown,30,0,65
+6,JSON,3,0,65
+2,Bourne Again Shell,8,2,46
+1,Prolog,0,0,24
+1,C Shell,9,5,11
+1,IDL,1,0,11
+1,XSLT,0,0,5
+1,TOML,0,0,4
+1,DTD,4,0,2
+1,Visual Basic,0,1,0
+1,CSS,2,4,0

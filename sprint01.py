@@ -40,6 +40,7 @@ query lab02 {
           name
         }
         url
+        isFork
       }
       pageInfo {
         endCursor
@@ -49,6 +50,7 @@ query lab02 {
     }
   }
 }
+
 
 """
 
@@ -71,7 +73,7 @@ nodes = resultado['data']['user']['repositories']['nodes']
 #saving data
 with open("d:/LAB-Exp-Software/LAB02/repos-gvanrossum.csv", 'w') as arquivo_repositorios_gvan:
 
-    cabecalho = ['name','stargazers','watchers','forks','releases','createdAt','primaryLanguage','url']
+    cabecalho = ['name','stargazers','watchers','forks','releases','createdAt','primaryLanguage','url', 'isFork']
     writer = DictWriter(arquivo_repositorios_gvan, fieldnames=cabecalho)
     writer.writeheader()
      

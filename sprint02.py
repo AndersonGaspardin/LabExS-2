@@ -5,14 +5,12 @@ import os
 import errno
 import json
 from csv import DictWriter
-import gc
-gc.collect()
+
 
 token = input("Informe seu token do github: ")
 headers = {"Authorization": "Bearer " + token} 
 
-#Funcao para , atraves da funcao requests.post da biblioteca requests, fazer uma chamada da API do graphql
-def run_query(query, headers): 
+def run_query(query, headers): # A simple function to use requests.post to make the API call. Note the json= section.
     request = requests.post('https://api.github.com/graphql', json={'query': query}, headers=headers)
     if request.status_code == 200:
         return request.json()
@@ -21,7 +19,7 @@ def run_query(query, headers):
 
 query = """
 query lab2S2 {
-  search(query: "stars:>1", type: REPOSITORY, first: 100{AFTER}) {
+  search(query: "stars:>100 language:Python", type: REPOSITORY, first: 20{AFTER}) {
     nodes {
       ... on Repository {
         forks {
@@ -67,7 +65,24 @@ nodes = resultado['data']['search']['nodes']
 
 conta_repositorios_python = 0
 
-total_pages =0 
+total_pages =0
+next_page  = resultado["data"]["search"]["pageInfo"]["hasNextPage"] 
+
+
+while (total_pages < 1000 and next_page): 
+    
+    #montando as query apos a primeira, detectando o cursor da ultima entrada da query anterior
+    # adicionando o campo after na query do graphql
+    # rodando o script com a nova query 
+    #carregando o json em um dicionario python
+    cursor = resultado["data"]["search"]["pageInfo"]["endCursor"]
+    next_query = query.replace("{AFTER}", ", after: \"%s\"" % cursor)
+    resultado = run_query(next_query, headers)
+    nodes += resultado['data']['search']['nodes']
+    next_page  = resultado["data"]["search"]["pageInfo"]["hasNextPage"]
+    total_pages += 1
+      
+      
 #preparando o cabecalho do arquivo csv
 with open("d:/LAB-Exp-Software/LAB02/repos-python.csv", 'w') as arquivo_repositorios_gvan:
 
@@ -75,31 +90,8 @@ with open("d:/LAB-Exp-Software/LAB02/repos-python.csv", 'w') as arquivo_reposito
   writer = DictWriter(arquivo_repositorios_gvan, fieldnames=cabecalho)
   writer.writeheader()
 
-
-  while (conta_repositorios_python < 1000):
-      
-      #montando as query apos a primeira, detectando o cursor da ultima entrada da query anterior
-      # adicionando o campo after na query do graphql
-      # rodando o script com a nova query 
-      #carregando o json em um dicionario python
-      cursor = resultado["data"]["search"]["pageInfo"]["endCursor"]
-      next_query = query.replace("{AFTER}", ", after: \"%s\"" % cursor)
-      resultado = run_query(next_query, headers)
-      nodes = resultado['data']['search']['nodes']
-      next_page  = resultado["data"]["search"]["pageInfo"]["hasNextPage"]
-      total_pages += 1
-
-      
-      for node in nodes:
-        
-        linguagem_primaria = node['primaryLanguage']
-        #se linguagem primary (primaryLanguage) for igual a Python entao escreve no csv
-        if linguagem_primaria == {'name':'Python'}:
-
-            writer.writerow(node)
-            conta_repositorios_python += 1
-            print(f"arquivos encontrados {node['name']} {conta_repositorios_python}")
-
-      
+  #escrevendo no arquivo csv
+  for node in nodes:
+    writer.writerow(node)    
 
 print("Execucao encerrada!")
